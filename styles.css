@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.big-box {
+    display: flex;
+}
+
+.big-box.one {
+    flex-direction: column;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header.links {
+    justify-content: space-around;
+}
+
+span {
+    padding-left: 10px;
+}
+
+.medium-box {
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.small-box.one {
+    flex-direction: column;
+
+}
