@@ -114,6 +114,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 100px;
 }
 
 .information {
@@ -133,17 +134,82 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 10px 0px 10px;   
 }
 
 .image {
     border: solid;
     border-color: #3882F6;
-    width: 50%;
-    height: 100px;
+    flex-grow: 1;
+    min-height: 150px;
+    align-self: stretch;
     border-radius: 20px;
 }
 
 .info.text {
     text-align: center;
     font-size: 18px;
+}
+
+
+
+
+.big-box.three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thorsquote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+}
+
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+em {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+strong {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+.big-box.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.bluespace {
+    border: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 80%;
+}
+
+.bluesignup {
+    border-color: #F9FAF8;
+}
+
+
+
+.big-box.five {
+    border:solid;
 }
